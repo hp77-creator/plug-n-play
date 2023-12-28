@@ -1,4 +1,14 @@
 #!/bin/sh
+#
+# Required parameters:
+# @raycast.schemaVersion 1
+# @raycast.title Plug n play PDFs
+# @raycast.mode silent
+#
+# Optional parameters:
+# @raycast.packageName pnp
+
+
 
 
 if [ $# -eq 0 ]; then
