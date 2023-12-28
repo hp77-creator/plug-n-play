@@ -5,13 +5,15 @@ A script which you can integrate in your `Raycast` tool to open any pdf directly
 
 :info: Somethings to keep track of before using the tool
 
-- Change your destination folder in `destination` in the source code
+- Change your destination folder in `destination` in the source code (No need from Dt: 28-Dec-2023)
 
 - You can configure your script to run with a keyboard shortcut by setting up it in Raycast settings
 - Press `<Cmd-Space>` 
 - Press `<Cmd-,>`
 - Click on `Script Commands` in the below window
 ![Alt text](image.png)
+
+- It might happen that your `Raycast` installation doesn't know in which directory your scripts are installed, in that case, link your directory where you cloned the following repo
 
 - Ensure that `plug-n-play` is enabled and by clicking on `Record hotkey` you can set any key by which you can directly access the script
 

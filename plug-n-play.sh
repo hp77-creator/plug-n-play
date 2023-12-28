@@ -25,6 +25,16 @@ url="$1"
 echo "URL: $url"
 curl -# -O "$url"
 latest_file=$(ls -t | head -n 1)
-destination="/Users/himanshu.pandey/.plug_n_play/"
-mv "$latest_file" "$destination"
-open "$destination$latest_file"
+echo "latest file location: $latest_file"
+destination="$HOME/.plug_n_play"
+if [ -d "$destination" ];
+then
+	mv "$latest_file" "$destination"
+	open "$destination/$latest_file"
+	exit 0
+fi
+
+mkdir "$destination"
+mv "$latest_file" "$destination/"
+open "$destination/$latest_file"
+
