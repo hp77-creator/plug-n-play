@@ -8,7 +8,7 @@
 # Optional parameters:
 # @raycast.icon 🤖
 # @raycast.packageName Developer utils
-# @raycast.argument1 { "type": "text", "placeholder": "query" }
+# @raycast.argument1 { "type": "text", "placeholder": "PDF url" }
 
 # Documentation:
 # @raycast.description plug your pdf url and directly view it in preview
