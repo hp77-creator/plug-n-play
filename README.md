@@ -11,10 +11,10 @@ A script which you can integrate in your `Raycast` tool to open any pdf directly
 - Press `<Cmd-Space>` 
 - Press `<Cmd-,>`
 - Click on `Script Commands` in the below window
-![Alt text](image.png)
+![Alt text](images/image.png)
 - It might happen that your `Raycast` installation doesn't know in which directory your scripts are installed, in that case, link your directory where you cloned the following repo
 - Ensure that `plug-n-play` is enabled and by clicking on `Record hotkey` you can set any key by which you can directly access the script. I use `<C-p>` but its upto you.
-![Alt text](image-1.png)
+![Alt text](images/image-1.png)
 
 
  > Tip: You can change where your PDFs are stored by changing it in `destination` variable in the shell script.
